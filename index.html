@@ -15,7 +15,9 @@
 
 <script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
 <script type="text/javascript">
-  window.storymap = new VCO.StoryMap("my-storymap", "data.json", {});
+  var storymap_data = "data.json";
+  var storymap_options = {};
+  window.storymap = new KLStoryMap.StoryMap("my-storymap", storymap_data, storymap_options);
 </script>
 
 </body>
